@@ -7,3 +7,9 @@ function player() {
     return 'O'
   }
 }
+
+function doTurn() {
+  turn += 1
+  updateState(element)
+  checkWinner()
+}
