@@ -8,6 +8,12 @@ function player() {
   }
 }
 
+function updateState(element) {
+  x = player()
+}
+
+
+
 function doTurn() {
   turn += 1
   updateState(element)
